@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdown Events</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <row>
+        <h2>ETF Performance</h2>
+        <select id="selDataset" onchange="buildStats(this.value)"></select>
+    </row>
+
+    <row>
+        <div id="lineGraph">
+
+        </div>
+    </row>
+    <!-- <div class="form-group">
+        <h5>Select ETF:</h5>
+        <select id="sel_div" onchange="cloudsearch(this.value)"></select>
+    </div> -->
+    <!-- </select> -->
+    
+    <div id="first-dropdown-plot"></div>
+    
+    <br>
+     <h1>Data Summary</h1>
+     <ul class="summary"></ul>
+
+    <!-- <script src="data.js"></script> -->
+    <script src="../static/js/app2.js"></script>
+
+    
+</body>
+</html>
