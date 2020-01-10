@@ -210,5 +210,6 @@ dependencies:
     - yarg==0.1.9
     - yfinance==0.1.52
     - zc-lockfile==2.0
+      - -r file:requirements.txt
 prefix: C:\Users\Home\Anaconda3\envs\pandas
 
